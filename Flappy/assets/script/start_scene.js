@@ -39,7 +39,7 @@ cc.Class({
         }
 
         this.bg1.x += this.speed; 
-        this.bg2.x += this.speed; 
+        this.bg2.x = this.bg1.getBoundingBox().xMax; 
 
         console.log(`${this.bg1.getBoundingBox().xMax}`);
         if (this.bg1.getBoundingBox().xMax <= this.resetX) {
