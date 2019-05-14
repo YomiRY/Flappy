@@ -68,6 +68,10 @@ cc.Class({
     },
 
     update (dt) {
+        if(this.node.getBoundingBox().yMin <= -cc.winSize.height / 2) {
+            this.state = BIRD_STATE.DIE;
+        }
+
         if (this.state === BIRD_STATE.DROP) {
             this.drop();
         }
