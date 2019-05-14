@@ -69,7 +69,10 @@ cc.Class({
 
     update (dt) {
         if(this.node.getBoundingBox().yMin <= -cc.winSize.height / 2) {
+            this.node.y = -cc.winSize.height / 2 + this.node.height / 2;
             this.state = BIRD_STATE.DIE;
+        } else if(this.node.getBoundingBox().yMax >= cc.winSize.height / 2) {
+            this.node.y = cc.winSize.height / 2 - this.node.height / 2;
         }
 
         if (this.state === BIRD_STATE.DROP) {

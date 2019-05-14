@@ -41,9 +41,9 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.837744140625,
-      "y": 0.837744140625,
-      "z": 0.837744140625
+      "x": 0.6049072265625,
+      "y": 0.6049072265625,
+      "z": 0.6049072265625
     },
     "_quat": {
       "__type__": "cc.Quat",
@@ -83,7 +83,7 @@
     "_level": 0,
     "_components": [
       {
-        "__id__": 19
+        "__id__": 21
       }
     ],
     "_prefab": null,
@@ -729,7 +729,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "New Sprite",
+    "_name": "bird",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -740,6 +740,12 @@
     "_components": [
       {
         "__id__": 18
+      },
+      {
+        "__id__": 19
+      },
+      {
+        "__id__": 20
       }
     ],
     "_prefab": null,
@@ -800,7 +806,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+      "__uuid__": "0c083f07-1f66-4419-bb8b-146db67b0b43"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -814,8 +820,43 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_state": 0,
-    "_atlas": null,
+    "_atlas": {
+      "__uuid__": "eda39c56-1715-4078-a60f-52ff3e86abce"
+    },
     "_id": "70YHrjdz9DjpXM9hRXWEwd"
+  },
+  {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 17
+    },
+    "_enabled": true,
+    "_defaultClip": {
+      "__uuid__": "f6e796ce-9275-49fd-a19b-9cbd95bf6626"
+    },
+    "_clips": [
+      {
+        "__uuid__": "f6e796ce-9275-49fd-a19b-9cbd95bf6626"
+      }
+    ],
+    "playOnLoad": false,
+    "_id": "f13jvtJQBLs6EPhUMjGCzI"
+  },
+  {
+    "__type__": "fda84mXFWtEybvLpC+dtldh",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 17
+    },
+    "_enabled": true,
+    "jumpDuration": 0.2,
+    "jumpHeight": 50,
+    "dropSpeed": 2,
+    "state": 1,
+    "_id": "83BSNJbARJXKTklSbVH94L"
   },
   {
     "__type__": "cc.Canvas",
