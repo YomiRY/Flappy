@@ -17,7 +17,7 @@
         "__id__": 2
       }
     ],
-    "_active": true,
+    "_active": false,
     "_level": 0,
     "_components": [],
     "_prefab": null,
@@ -41,9 +41,9 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.6049072265625,
-      "y": 0.6049072265625,
-      "z": 0.6049072265625
+      "x": 0.6845947265625,
+      "y": 0.6845947265625,
+      "z": 0.6845947265625
     },
     "_quat": {
       "__type__": "cc.Quat",
@@ -80,7 +80,7 @@
       }
     ],
     "_active": true,
-    "_level": 0,
+    "_level": 1,
     "_components": [
       {
         "__id__": 21
@@ -841,7 +841,7 @@
         "__uuid__": "f6e796ce-9275-49fd-a19b-9cbd95bf6626"
       }
     ],
-    "playOnLoad": false,
+    "playOnLoad": true,
     "_id": "f13jvtJQBLs6EPhUMjGCzI"
   },
   {
